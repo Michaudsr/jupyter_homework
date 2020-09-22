@@ -11,7 +11,7 @@ from selenium import webdriver
 
 
 def countdown(num):
-    # base cause
+    # base case
     if num == 0:
         print('Blast off!')
         return 
